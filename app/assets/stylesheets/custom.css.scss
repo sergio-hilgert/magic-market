@@ -1,67 +1,38 @@
-#logo{
-    float: left;
-    font-size: 1.7em;
-    color: #fff;
-    letter-spacing: -1px;
-    font-weight: bold;
-}
-
-
-.jumbotron{
-    height: 100vh;
+.jumbotron {
     background-image: asset-url('magic-market-home.jpg');
-    background-size: cover;
-}
-
-.jumbotron h1{
-    color: #fff;
+    height: 100vh;
     text-align: center;
-    margin-bottom: 30px;
-    letter-spacing: -1px;
-}
-.navbar-home-page{
-    margin-bottom: -1px;
-}
-
-.panel-transparent {
-    background: none;
-    border: 0;
-    background: rgba(46, 51, 56, 0.7)!important;
-}
-
-.magic-text{
+    background-size: cover;
+    color: white;
+    font-family: 'Helvetica Neue' !important;
+    font-stretch: expanded;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+       text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+       
     font-family: fantasy;
     font-style: oblique;
 }
 
+.no-left-padding {
+    padding-left: 0 !important;
+}
+
 .btn-xlarge{
     color: white;
-    font-size: 1.7em;
-    background-color: black;
-    border: 0;
+    font-size: 0.7em;
+    background: rgba(216, 223, 234, 0.6);
+    border: none;
 }
 
-footer{
-    margin-top: 45px;
-    padding-top: 5px;
-    border-top: 1px solid #eaeaea;
-    color: #777;
-}
-
-footer a:hover{
-    color: #222;
-}
-
-footer small{
-    float: left;
-}
-
-footer ul{
-    float: right;
-    list-style: none;
-}
-
-footer ul li{
-    float: left;
-    margin-left: 15px;
+.btn-secondary:hover, .btn-secondary:focus {
+    color: white;
+    background: rgba(109, 132, 180, 0.8);
 }
