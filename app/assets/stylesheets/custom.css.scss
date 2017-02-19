@@ -1,0 +1,67 @@
+#logo{
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+
+.jumbotron{
+    height: 100vh;
+    background-image: asset-url('magic-market-home.jpg');
+    background-size: cover;
+}
+
+.jumbotron h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+.navbar-home-page{
+    margin-bottom: -1px;
+}
+
+.panel-transparent {
+    background: none;
+    border: 0;
+    background: rgba(46, 51, 56, 0.7)!important;
+}
+
+.magic-text{
+    font-family: fantasy;
+    font-style: oblique;
+}
+
+.btn-xlarge{
+    color: white;
+    font-size: 1.7em;
+    background-color: black;
+    border: 0;
+}
+
+footer{
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+}
+
+footer a:hover{
+    color: #222;
+}
+
+footer small{
+    float: left;
+}
+
+footer ul{
+    float: right;
+    list-style: none;
+}
+
+footer ul li{
+    float: left;
+    margin-left: 15px;
+}
