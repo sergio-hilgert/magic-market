@@ -1,3 +1,0 @@
-== Magic Market!
-
-This is an Ruby on Rails website to people who have Magic cards and want to trade them!
